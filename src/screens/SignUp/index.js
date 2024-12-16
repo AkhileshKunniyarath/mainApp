@@ -78,7 +78,7 @@ const SignUp = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Signup</Text>
+      <Text style={styles.title}>SignUp</Text>
 
       <TextInput
         style={styles.input}
@@ -130,13 +130,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   title: {
-    fontSize: 28,
+    fontSize: 32,
     fontWeight: 'bold',
     marginBottom: 20,
   },
   input: {
     width: '100%',
-    height: 50,
+    height: 60,
     borderColor: '#ccc',
     borderWidth: 1,
     borderRadius: 8,
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#fff',
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 'bold',
   },
 });
